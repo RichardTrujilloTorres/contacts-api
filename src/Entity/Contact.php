@@ -47,7 +47,7 @@ class Contact
     /**
      * @ORM\Column(type="datetime", nullable=true)
      */
-    private $birtday;
+    private $birthday;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
@@ -124,14 +124,14 @@ class Contact
         return $this;
     }
 
-    public function getBirtday(): ?\DateTimeInterface
+    public function getBirthday(): ?\DateTimeInterface
     {
-        return $this->birtday;
+        return $this->birthday;
     }
 
-    public function setBirtday(?\DateTimeInterface $birtday): self
+    public function setBirthday(?\DateTimeInterface $birthday): self
     {
-        $this->birtday = $birtday;
+        $this->birthday = $birthday;
 
         return $this;
     }
