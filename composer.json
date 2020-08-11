@@ -25,8 +25,13 @@
     },
     "require-dev": {
         "hautelook/alice-bundle": "^2.7",
+        "justinrainbow/json-schema": "^5.2",
+        "symfony/browser-kit": "^5.1",
+        "symfony/css-selector": "^5.1",
         "symfony/debug-bundle": "5.1.*",
-        "symfony/maker-bundle": "^1.20"
+        "symfony/http-client": "5.1.*",
+        "symfony/maker-bundle": "^1.20",
+        "symfony/phpunit-bridge": "^5.1"
     },
     "config": {
         "optimize-autoloader": true,
