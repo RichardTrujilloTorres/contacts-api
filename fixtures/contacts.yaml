@@ -1,0 +1,10 @@
+App\Entity\Contact:
+  contact_{1..1000}:
+    uuid: <uuid()>
+    email: <email()>
+    first_name: <name()>
+    last_name: <lastName()>
+    title: <jobTitle()>
+    birthday: <date_create()>
+    gender: <randomElement(['male', 'female'])>
+    notes: <text()>
